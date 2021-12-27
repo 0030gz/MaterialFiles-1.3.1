@@ -1332,7 +1332,7 @@ class FileListFragment : Fragment(), BreadcrumbLayout.Listener, FileListAdapter.
             fun inflate(menu: Menu, inflater: MenuInflater): MenuBinding {
                 inflater.inflate(R.menu.file_list, menu)
                 return MenuBinding(
-                    menu, menu.findItem(R.id.action_search), menu.findItem(R.id.action_sort),
+                    menu, menu.findItem(R.id.action_search_new), menu.findItem(R.id.action_sort),
                     menu.findItem(R.id.action_sort_by_name),
                     menu.findItem(R.id.action_sort_by_type),
                     menu.findItem(R.id.action_sort_by_size),
