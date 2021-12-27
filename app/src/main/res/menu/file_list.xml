@@ -12,7 +12,7 @@
     tools:ignore="AlwaysShowAction">
 
     <item
-        android:id="@+id/action_search"
+        android:id="@+id/action_search_new"
         android:icon="@drawable/search_icon_control_normal_24dp"
         android:orderInCategory="100"
         android:title="@string/search"
@@ -115,4 +115,7 @@
         android:orderInCategory="100"
         android:title="@string/file_list_action_create_shortcut"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_return_rootdirectory"
+        android:title="@string/file_list_action_return_rootdirectory" />
 </menu>
